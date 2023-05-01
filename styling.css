@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse : collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table th,table td{
+    padding: 6px;
+    text-align: left;
+    border: 1px solid lightgrey;
+
+}
+table th{
+    background-color: rgb(191, 128, 240);
+    color: white;
+    border: none;
+}
+table tr:nth-child(even){
+    background-color:rgb(191, 128, 240);
+    color: white;
+    border: none;
+}
+table tr:nth-child(even){
+    background-color: bisque;
+}
+table tr:hover{
+    background-color: burlywood;
+}
+
+from{
+    margin:20px auto;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.4px;
+}
+fieldset{
+    border: none;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4px;
+}
+button[type="submit"]{
+    background-color: lightgreen;
+}
+
+.mainbar{
+    background-color: lightgray;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+
+}
+.mainbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.mainbar li{
+    float: left;
+}
+
+.mainbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+.mainbar a:hover{
+    background-color: dimgray;
+    color: white;
+}
+
+.mainbar .active{
+    background-color: #dddddd;
+    color: black;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightsalmon;
+}
+a:active{
+    color: cornsilk;
+}
+
+h1{
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 25px;
+    background-color: rgb(191, 128, 240) ;
+    padding: 20px;
+}
